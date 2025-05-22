@@ -2,12 +2,9 @@
   "title": "Code Actions",
   "description": "Let users copy or exec code blocks",
   "details": {
-    "intro": {
-      "text": "intro.md"
-    },
     "steps": [
       {
-        "text": "step1.md"
+        "text": "apache2.md"
       }
     ]
   },
