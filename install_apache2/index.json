@@ -2,6 +2,7 @@
   "title": "Code Actions",
   "description": "Let users copy or exec code blocks",
   "details": {
+    "forground": "install_apache2/install_apache2.sh"
     "steps": [
       {
         "text": "apache2.md"
