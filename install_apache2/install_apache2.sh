@@ -22,5 +22,4 @@ sudo systemctl status apache2
 
 echo "Installation complète d'Apache2 sur Ubuntu."
 
-chmod +x install_apache2.sh
-./install_apache2.sh
+
