@@ -3,8 +3,8 @@
   "description": "Let users copy or exec code blocks",
   "details": {
     "forground": "install_apache2/install_apache2.sh",
-    "background": "install_apache2/push_apache2.sh"
-  },
+    "background": "install_apache2/push_apache2.sh",
+  
     "steps": [
       {
         "text": "apache2.md"
@@ -14,4 +14,4 @@
   "backend": {
     "imageid": "ubuntu"
   }
-
+}
