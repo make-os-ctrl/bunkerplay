@@ -6,12 +6,12 @@
 Expose Apache on port 1234 using Docker:
 
 ```
-docker run -d -p 80:80 httpd:alpine
+docker run -d -p 1234:80 httpd:alpine
 ```{{exec}}
 
 Now access Apache using this link:
 
-[ACCESS APACHE]({{TRAFFIC_HOST1_80:80}})
+[ACCESS APACHE]({{TRAFFIC_HOST1_1234:80}})
 
 It's also possible to access ports using the top-right navigation in the terminal.
 Or we can display the link to that page:
