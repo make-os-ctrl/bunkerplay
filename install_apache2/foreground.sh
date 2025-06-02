@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Démarrer le service Apache2
 service apache2 start
