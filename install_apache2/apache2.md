@@ -1,19 +1,14 @@
 
-> Services need to run on all interfaces (like 0.0.0.0) and not just localhost.
-<br>
-> Services need to be accessible via HTTP and **not** HTTPS.
+### installation apache2
+`wget https://github.com/make-os-ctrl/bunkerplay/blob/main/install_apache2/install_apache2.sh`{{exec}}
 
-Expose Apache on port 1234 using Docker:
+`chmod +x install_apache2.sh`{{exec}}
 
-```
-docker run -d -p 1234:80 httpd:alpine
-```{{exec}}
+`./install_apache2.sh`{{exec}}
 
-Now access Apache using this link:
 
-[ACCESS APACHE]({{TRAFFIC_HOST1_1234:80}})
 
-It's also possible to access ports using the top-right navigation in the terminal.
-Or we can display the link to that page:
+### going to page apache 2
+`http://your_address_ip` 
+{{exec}}
 
-[ACCESS PORTS]({{TRAFFIC_SELECTOR}})
