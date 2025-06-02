@@ -1,14 +1,12 @@
 {
-  "title": "install_apache2",
-  "description": "Let users copy or exec code blocks",
+  "title": "install apache2",
+  "description": "aapche2",
   "details": {
-    "background": "install_apache2/install_apache2.sh",
-    "foregroung": "install_apache2/foreground.sh",
-    "steps": [
-      {
-        "text": "apache2.md"
-      }
-    ]
+    "intro": {
+      "text": "apache2"
+      "forground": "foreground.sh",
+      "background": "background.sh"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
