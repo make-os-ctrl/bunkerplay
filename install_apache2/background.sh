@@ -1,9 +1,7 @@
 #!/bin/bash
 
-set -x # to test stderr output in /var/log/killercoda
+# Mettre à jour la liste des paquets
+apt-get update
 
-echo starting... # to test stdout output in /var/log/killercoda
-
-sleep 5 # some long running background task
-
-touch /tmp/finished
+# Installer Apache2
+apt-get install -y apache2
