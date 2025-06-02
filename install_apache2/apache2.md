@@ -4,7 +4,7 @@
 
 `systemctl status apache2`{{exec}}
 
-[ACCESS APACHE]({{TRAFFIC_HOST1_80}})
+[ACCESS APACHE]({{TRAFFIC_HOST1_80}}
 
 
 ### going to page apache 2
