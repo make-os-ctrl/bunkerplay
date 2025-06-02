@@ -6,6 +6,7 @@
     "foregroung": "foreground.sh",
     "steps": [
       {
+        "file": "config.yaml"
         "text": "apache2.md"
       }
     ]
