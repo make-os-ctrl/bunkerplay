@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo "installation de apache2"
 
 sleep 1
