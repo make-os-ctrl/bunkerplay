@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 # Mettre à jour la liste des paquets
 apt-get update
