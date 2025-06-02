@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -x 
+echo starting ....
+sleep 5 
 # Mettez à jour la liste des paquets
 echo "Mise à jour de la liste des paquets..."
 sudo apt update
