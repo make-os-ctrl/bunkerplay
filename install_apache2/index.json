@@ -3,7 +3,7 @@
   "description": "aapche2",
   "details": {
     "intro": {
-      "text": "apache2"
+      "text": "apache2.md",
       "forground": "foreground.sh",
       "background": "background.sh"
     }
