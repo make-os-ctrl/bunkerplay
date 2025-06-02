@@ -8,10 +8,12 @@
       "background": "background.sh"
     }
   },
-  "next": {
+  "next":[ 
+  {
     "text": "docker/docker.md",
     "background": "docker/background.sh"
   },
+  ]
   "backend": {
     "imageid": "ubuntu"
   }
