@@ -1,10 +1,9 @@
 #!/bin/bash
 
-set -x 
+set -x # to test stderr output in /var/log/killercoda
 
-echo starting 
+echo starting... # to test stdout output in /var/log/killercoda
 
-sleep 5
+sleep 5 # some long running background task
 
-apt install -y apache2
-
+touch /tmp/finished
