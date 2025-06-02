@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Mettre à jour la liste des paquets
-apt-get update
+apt update
 
 # Installer Apache2
-apt-get install -y apache2
+apt install -y apache2
 
