@@ -1,3 +1,0 @@
-setps:
-  -title "setup Apache2"
-  script: "install_apache2.sh"
