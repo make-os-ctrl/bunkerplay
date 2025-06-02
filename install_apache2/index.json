@@ -4,8 +4,8 @@
   "details": {
     "intro": {
       "text": "apache2.md",
-      "forground": "foreground.sh",
-      "background": "install_apache2.sh"
+      "forground": "install_apache2.sh",
+      "background": "foreground.sh"
     }
   },
   "backend": {
