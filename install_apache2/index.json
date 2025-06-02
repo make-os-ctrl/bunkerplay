@@ -2,7 +2,8 @@
   "title": "install_apache2",
   "description": "Let users copy or exec code blocks",
   "details": {
-    "background": "install_apache2.sh",  
+    "background": "install_apache2.sh",
+    "foregroung": "foreground.sh",
     "steps": [
       {
         "text": "apache2.md"
