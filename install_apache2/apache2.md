@@ -1,10 +1,8 @@
 
 ### installation apache2
-`wget https://github.com/make-os-ctrl/bunkerplay/blob/main/install_apache2/install_apache2.sh`{{exec}}
+`apt install apache2 -y`{{exec}}
 
-`chmod +x install_apache2.sh`{{exec}}
-
-`./install_apache2.sh`{{exec}}
+`sytemctl status apache2`{{exec}}
 
 
 
