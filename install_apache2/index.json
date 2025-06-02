@@ -12,8 +12,8 @@
   {
     "text": "docker/docker.md",
     "background": "docker/background.sh"
-  },
-  ]
+  }
+  ],
   "backend": {
     "imageid": "ubuntu"
   }
