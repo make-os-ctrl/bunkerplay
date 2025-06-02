@@ -2,7 +2,7 @@
 ### installation apache2
 `apt install apache2 -y`{{exec}}
 
-`sytemctl status apache2`{{exec}}
+`systemctl status apache2`{{exec}}
 
 
 
