@@ -10,6 +10,7 @@
   },
   "next":[ 
   {
+    "title": "docker",
     "text": "docker/docker.md",
     "background": "docker/background.sh"
   }
