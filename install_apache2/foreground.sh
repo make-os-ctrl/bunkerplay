@@ -1,4 +1,4 @@
-while [ ! -f /etc/apache2 ]; do sleep 1; done
+
 # Démarrer le service Apache2
 service apache2 start
 
