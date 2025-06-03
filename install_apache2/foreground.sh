@@ -1,7 +1,2 @@
-
-# Démarrer le service Apache2
-
-# Veiller à ce que le service reste commencé après le démarrage
-tail -f /var/log/apache2/error.log
-
-systemctl enable apache2
+systemctl start docker
+docker ps
