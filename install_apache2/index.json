@@ -5,8 +5,7 @@
     "intro": {
       "text": "bunker.md",
       "foreground": "foreground.sh",
-      "background": "background.sh",
-      "file": "background.sh", "chmod": "+x"
+      "background": "background.sh"
     }
   },
   "backend": {
