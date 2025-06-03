@@ -1,4 +1,4 @@
 install BunkerWeb
 
 
-[ACCESS bunker({{TRAFFIC_HOST1_80}})
+[ACCESS bunker({{TRAFFIC_CUSTOMPORT_7000}})
