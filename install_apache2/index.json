@@ -3,9 +3,9 @@
   "description": "aapche2",
   "details": {
     "intro": {
-      "text": "install_apache2/apache2.md",
-      "foreground": "install_apache2/foreground.sh",
-      "background": "install_apache2/background.sh"
+      "text": "apache2.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
     },
     "steps":[
       {
