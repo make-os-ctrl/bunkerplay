@@ -6,7 +6,7 @@
       "text": "bunker.md",
       "foreground": "foreground.sh",
       "background": "background.sh",
-      {"file": "background.sh", "chmod"; "+x"},
+      {"file": "background.sh", "chmod": "+x"},
     }
   },
   "backend": {
