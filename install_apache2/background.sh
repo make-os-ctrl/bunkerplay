@@ -1,7 +1,5 @@
-#!/bin/bash
-set -x
-# Installer Apache2
-apt-get install -y apache2
 
-systemctl start apache2
-systemctl enable apache2
+#!/bin/bash
+systemctl start docker
+docker run -d --name bunkerweb-aio -v bw-storage:/data -p 80:8080/tcp -p 443:8443/tcp -p 443:8443/udp bunkerity/bunkerweb-all-in-one:1.6.2-rc2
+docker ps
