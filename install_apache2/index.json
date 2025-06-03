@@ -14,7 +14,8 @@
         "foreground": "docker/foreground.sh",
         "background": "docker/background.sh"      
       }
-    ],      
+    ] 
+  },
   "backend": {
     "imageid": "ubuntu"
   }
