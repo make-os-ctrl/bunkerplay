@@ -3,18 +3,18 @@
   "description": "aapche2",
   "details": {
     "intro": {
-      "text": "apache2.md",
-      "foreground": "foreground.sh",
-      "background": "background.sh"
-    }
-  },
-  "next":[ 
-  {
-    "title": "docker",
-    "text": "docker/docker.md",
-    "background": "docker/background.sh"
-  }
-  ],
+      "text": "apache2/apache2.md",
+      "foreground": "apache2/foreground.sh",
+      "background": "apache2/background.sh"
+    },
+    "steps":[
+      {
+        "title": "docker",
+        "text":"docker/docker.md",
+        "foreground": "docker/foreground.sh",
+        "background": "docker/background.sh"      
+      }
+    ],      
   "backend": {
     "imageid": "ubuntu"
   }
